@@ -15,13 +15,13 @@ public class PalindromeTest{
 public void checkstr()
 {
     Palindrome palindromeTester = new Palindrome();
-    assertTrue(palindromeTester.isWordPresent(" hello world ","hello"));
+    assertTrue(palindromeTester.isWordPresent(" hi world ","hello"));
 	
 	
 
 }
 
-    @Test
+@Test
     public void testWordNotInString() {
         String sentence = "hello world";
         assertFalse(sentence.contains("cat"));
