@@ -20,4 +20,15 @@ public void checkstr()
 	
 
 }
+
+    @Test
+    public void testWordNotInString() {
+        String sentence = "hello world";
+        assertFalse(sentence.contains("cat"));
+    }
+@Test
+    public void testWordInEmptyString() {
+        String sentence = "";
+        assertFalse(sentence.contains("hello"));
+    }
 }
