@@ -14,7 +14,7 @@ public class Palindrome
 
 		// Comparing the current word
 		// with the word to be searched
-			if (temp.compareTo(word) == 0)
+			if (temp.to lowercase().compare(word.to_lower_case() == 0)
 			{
 				System.out.println(word);
 				return true;
